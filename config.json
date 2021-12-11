@@ -1,0 +1,28 @@
+{
+    "token": "OTEwOTExMzA1OTQ1MzQxOTcy.YZZuQw.IOjScnLG0R0lH-CtlNvCU92klVw",
+    "prefix": ".",
+    "mongoPath": "mongodb://localhost:27017",
+    "categoryName": "REJOINS POUR CREE",
+    "rulesChannel": "911288836183695420",
+    "channelName": "➕ ⠂Rejoins, crée",
+    "channelTicket": "911784048211406858",
+    "guildID": "910912275060252703",
+    "channelIDlogs": "911676777062101003",
+    "purple": "#d604cf",
+    "membercount": {
+        "TotalchannelID": "911769512351789056",
+        "MemberchannelID": "911769491921322024",
+        "BotchannelID": "911769551564312607"
+    },
+    "welcome": {
+        "channel": "911243052704751666"
+    },
+    "greeting": {
+        "channel": "813726776727306254",
+        "channelvl": "813726776727306254"
+    },
+    "ticket": {
+        "category": "837343577545637938",
+        "roles": ["813735119638233108", "837349637689049139"]
+    }
+}
