@@ -27,5 +27,8 @@
   },
   "devDependencies": {
     "@types/node": "^16.11.9"
+  },
+  engines": {
+    "node": "16.10.0" //inserer votre version de node
   }
 }
