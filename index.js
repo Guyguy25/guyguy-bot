@@ -51,20 +51,29 @@ client.on("message", async (message) => {
   if (commandfile) commandfile.run(client, message, args);
 });
 
-/*const activities_list = [
-  { type: 'PLAYING',  message: 'JavaScript'  },
-  { type: 'WATCHING', message: '.help' },
-  { type: 'LISTENING', message: 'French' },
-  { type: 'STREAMING', message: '🤍Create by Guyguy', url: "https://www.twitch.tv/guyguy_tv"}
+const activities_list = [
+  { type: "PLAYING", message: "JavaScript" },
+  { type: "WATCHING", message: ".help" },
+  { type: "LISTENING", message: "French" },
+  {
+    type: "STREAMING",
+    message: "🤍Create by Guyguy",
+    url: "https://www.twitch.tv/guyguy_tv",
+  },
 ];
 
-client.on('ready', () => {
+client.on("ready", () => {
   setInterval(() => {
     const index = Math.floor(Math.random() * (activities_list.length - 1) + 1);
 
-    client.user.setActivity(activities_list[index].message, { type: activities_list[index].type } || { url: activities_list[index].url});
+    client.user.setActivity(
+      activities_list[index].message,
+      { type: activities_list[index].type } || {
+        url: activities_list[index].url,
+      }
+    );
   }, 20000);
-});*/
+});
 
 client.on("ready", async (message) => {
   console.log(
