@@ -6,26 +6,26 @@ A simple discord bot.
 
 - Discord.js v14 (`npm install discord.js@lastest`)
 - [Download NodeJS](https://nodejs.org/en/download/)
-- NodeJS v16.8.0 or hight
+- NodeJS v16.9.0 or hight
 
 ## Installation
 
 #### Clone repository
 
 ```bash
-  git clone https://github.com/Guyguy25/guyguy-bot
+git clone https://github.com/Guyguy25/guyguy-bot
 ```
 
 #### Install all necessary packages
 
 ```bash
-  npm install
+npm install
 ```
 
 #### Run script
 
 ```bash
-  node index.js
+node index.js
 ```
 
 ## Configuration
@@ -33,11 +33,11 @@ A simple discord bot.
 #### Edit the token in `config.json` file
 
 ```json
-  {
-    "token": "YOUR_TOKEN_BOT",
-    "prefix": "YOUR_PREFIX",
-    "mongoPath": "YOUR_MONGO_PATH",
-  }
+{
+  "token": "YOUR_TOKEN_BOT",
+  "prefix": "YOUR_PREFIX",
+  "mongoPath": "YOUR_MONGO_PATH"
+}
 ```
 
 ## Author
