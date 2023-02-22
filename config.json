@@ -1,7 +1,7 @@
 {
-    "token": "OTEwOTExMzA1OTQ1MzQxOTcy.YZZuQw.IOjScnLG0R0lH-CtlNvCU92klVw",
+    "token": "YOUR_TOKEN_BOT",
     "prefix": ".",
-    "mongoPath": "mongodb://localhost:27017",
+    "mongoPath": "YOUR_MONGO_PATH",
     "categoryName": "REJOINS POUR CREE",
     "rulesChannel": "911288836183695420",
     "channelName": "➕ ⠂Rejoins, crée",
